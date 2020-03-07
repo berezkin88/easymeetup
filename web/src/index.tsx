@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 import { createStore, combineReducers, applyMiddleware} from 'redux';
 import { Provider } from 'react-redux';
 import thunk from "redux-thunk";
-import events  from './components/Events/reducer';
+import events  from './components/events/reducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
 export const history = createHistory();

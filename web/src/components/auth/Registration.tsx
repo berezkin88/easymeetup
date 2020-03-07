@@ -18,7 +18,7 @@ class Registration extends Component {
                 <form className="form-login">
                     <Grid
                         container
-                        spacing={16}
+                        spacing={2}
                         direction="column"
                         justify="center"
                         alignItems="center"
